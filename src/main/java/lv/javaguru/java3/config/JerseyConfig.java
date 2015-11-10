@@ -1,6 +1,5 @@
 package lv.javaguru.java3.config;
 
-import lv.javaguru.java3.rest.HealthController;
 import lv.javaguru.java3.rest.clients.ClientResourceImpl;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +8,6 @@ import org.springframework.context.annotation.Configuration;
 public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
-        register(HealthController.class);
         register(ClientResourceImpl.class);
     }
 
