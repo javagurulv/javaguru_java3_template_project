@@ -6,10 +6,10 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"lv.javaguru.java3"})
-public class AppCoreConfig {
+public class Application {
 
-    public static void main(String[] args) throws Exception {
-        SpringApplication.run(AppCoreConfig.class, args);
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
     }
 
 }

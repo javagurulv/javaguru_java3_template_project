@@ -1,8 +1,7 @@
-package lv.javaguru.java3.core.services.clients.handlers;
+package lv.javaguru.java3.core.commands.clients;
 
-import lv.javaguru.java3.core.commands.clients.UpdateClientCommand;
-import lv.javaguru.java3.core.commands.clients.UpdateClientResult;
 import lv.javaguru.java3.core.domain.Client;
+import lv.javaguru.java3.core.dto.ClientDTO;
 import lv.javaguru.java3.core.services.DomainCommandHandler;
 import lv.javaguru.java3.core.services.clients.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +11,8 @@ import org.springframework.stereotype.Component;
 class UpdateClientCommandHandler
         implements DomainCommandHandler<UpdateClientCommand, UpdateClientResult> {
 
-    @Autowired
-    private ClientService clientService;
+    @Autowired private ClientService clientService;
+    @Autowired private ClientConverter clientConverter;
 
 
     @Override
@@ -23,7 +22,8 @@ class UpdateClientCommandHandler
                 command.getLogin(),
                 command.getPassword()
         );
-        return new UpdateClientResult(client);
+        ClientDTO clientDTO = clientConverter.convert(client);
+        return new UpdateClientResult(clientDTO);
     }
 
     @Override
