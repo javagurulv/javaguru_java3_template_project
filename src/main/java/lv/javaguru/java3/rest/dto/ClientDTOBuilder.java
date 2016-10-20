@@ -1,6 +1,4 @@
-package lv.javaguru.java3.core.dto;
-
-import lv.javaguru.java3.core.domain.Client;
+package lv.javaguru.java3.rest.dto;
 
 public class ClientDTOBuilder {
 

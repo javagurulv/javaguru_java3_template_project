@@ -10,7 +10,7 @@ import javax.persistence.EntityManagerFactory;
 
 @Configuration
 @EntityScan(basePackages = "lv.javaguru.java3.core.domain")
-public class HibernateConfig {
+class HibernateConfig {
 
     @Autowired
     private EntityManagerFactory entityManagerFactory;

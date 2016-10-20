@@ -4,7 +4,7 @@ import lv.javaguru.java3.core.commands.clients.CreateClientCommand;
 import lv.javaguru.java3.core.commands.clients.CreateClientResult;
 import lv.javaguru.java3.core.commands.clients.GetClientCommand;
 import lv.javaguru.java3.core.commands.clients.GetClientResult;
-import lv.javaguru.java3.core.dto.ClientDTO;
+import lv.javaguru.java3.rest.dto.ClientDTO;
 import lv.javaguru.java3.core.services.CommandExecutor;
 import lv.javaguru.java3.rest.api.RESTResource;
 import lv.javaguru.java3.rest.api.ClientResource;

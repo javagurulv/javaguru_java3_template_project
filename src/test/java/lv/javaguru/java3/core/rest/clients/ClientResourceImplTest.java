@@ -1,11 +1,11 @@
 package lv.javaguru.java3.core.rest.clients;
 
-import lv.javaguru.java3.core.dto.ClientDTO;
+import lv.javaguru.java3.rest.dto.ClientDTO;
 import lv.javaguru.java3.core.rest.RESTResourceTest;
 import org.apache.commons.lang.RandomStringUtils;
 import org.junit.Test;
 
-import static lv.javaguru.java3.core.dto.ClientDTOBuilder.createClientDTO;
+import static lv.javaguru.java3.rest.dto.ClientDTOBuilder.createClientDTO;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 import static org.junit.Assert.assertThat;

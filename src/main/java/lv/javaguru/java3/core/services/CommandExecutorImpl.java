@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @Component
-public class CommandExecutorImpl implements CommandExecutor {
+class CommandExecutorImpl implements CommandExecutor {
 
     @Autowired
     private List<DomainCommandHandler> services;

@@ -1,6 +1,6 @@
 package lv.javaguru.java3.rest.api;
 
-import lv.javaguru.java3.core.dto.ClientDTO;
+import lv.javaguru.java3.rest.dto.ClientDTO;
 
 import javax.ws.rs.*;
 
