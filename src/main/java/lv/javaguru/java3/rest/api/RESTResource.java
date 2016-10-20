@@ -1,4 +1,4 @@
-package lv.javaguru.java3.rest;
+package lv.javaguru.java3.rest.api;
 
 public class RESTResource {
 

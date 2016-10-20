@@ -1,4 +1,4 @@
-package lv.javaguru.java3.rest.clients;
+package lv.javaguru.java3.rest.api;
 
 import lv.javaguru.java3.core.dto.ClientDTO;
 
@@ -6,6 +6,7 @@ import javax.ws.rs.*;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
+@Path(RESTResource.API_PATH)
 public interface ClientResource {
 
     @POST
