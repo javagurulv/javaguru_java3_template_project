@@ -1,4 +1,4 @@
-package lv.javaguru.java3.rest.dto;
+package lv.javaguru.java3.integrations.rest.dto;
 
 import java.io.Serializable;
 

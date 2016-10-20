@@ -1,10 +1,10 @@
 package lv.javaguru.java3.core.commands.clients;
 
 import lv.javaguru.java3.core.domain.Client;
-import lv.javaguru.java3.rest.dto.ClientDTO;
+import lv.javaguru.java3.integrations.rest.dto.ClientDTO;
 import org.springframework.stereotype.Component;
 
-import static lv.javaguru.java3.rest.dto.ClientDTOBuilder.createClientDTO;
+import static lv.javaguru.java3.integrations.rest.dto.ClientDTOBuilder.createClientDTO;
 
 @Component
 class ClientConverter {

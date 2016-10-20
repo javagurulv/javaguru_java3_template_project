@@ -1,13 +1,13 @@
-package lv.javaguru.java3.rest.impl;
+package lv.javaguru.java3.integrations.rest.impl;
 
 import lv.javaguru.java3.core.commands.clients.CreateClientCommand;
 import lv.javaguru.java3.core.commands.clients.CreateClientResult;
 import lv.javaguru.java3.core.commands.clients.GetClientCommand;
 import lv.javaguru.java3.core.commands.clients.GetClientResult;
-import lv.javaguru.java3.rest.dto.ClientDTO;
+import lv.javaguru.java3.integrations.rest.dto.ClientDTO;
 import lv.javaguru.java3.core.services.CommandExecutor;
-import lv.javaguru.java3.rest.api.RESTResource;
-import lv.javaguru.java3.rest.api.ClientResource;
+import lv.javaguru.java3.integrations.rest.api.RESTResource;
+import lv.javaguru.java3.integrations.rest.api.ClientResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
